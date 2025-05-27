@@ -1,0 +1,44 @@
+workflows:
+  flutter-build:
+    name: Flutter Build Workflow
+    max_build_duration: 60
+    environment:
+      flutter: stable
+      xcode: latest
+      vars:
+        APP_ID: com.example.myapp
+        # Add other variables like FIREBASE_TOKEN, etc.
+      groups:
+        - keystore_credentials
+        - ios_credentials
+    triggering:
+      events:
+        - push
+      branch_patterns:
+        - pattern: main
+          include: true
+    scripts:
+      - name: Install dependencies
+        script: |
+          flutter pub get
+      - name: Run tests
+        script: |
+          flutter test
+      - name: Build Android APK
+        script: |
+          flutter build apk --release
+      - name: Build iOS
+        script: |
+          flutter build ios --release --no-codesign
+      - name: Debug APK path
+        script: |
+          ls -R build/app/outputs
+
+    artifacts:
+      - build/app/outputs/flutter-apk/app-release.apk
+      - build/ios/iphoneos/Runner.app
+    publishing:
+      email:
+        recipients:
+          - your-email@example.com
+
