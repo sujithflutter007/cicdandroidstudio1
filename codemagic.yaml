@@ -6,12 +6,10 @@ workflows:
       flutter: 3.19.0
       xcode: latest
       java: 17
-      android:
-        gradle_version: 8.2
-        kotlin_version: 1.8.10
       vars:
         BUILD_NAME: "3.3.0"
         BUILD_NUMBER: "132"
+
     cache:
       cache_paths:
         - "$FLUTTER_ROOT/.pub-cache"
@@ -64,7 +62,6 @@ workflows:
       - build/app/outputs/bundle/release/app-release.aab
       - build/ios/ipa
 
-
     publishing:
       email:
         recipients:
@@ -72,4 +69,3 @@ workflows:
         notify:
           success: true
           failure: true
-
