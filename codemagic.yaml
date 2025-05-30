@@ -43,14 +43,18 @@ workflows:
       - name: Build Android APK
         script: |
           flutter build apk --release \
-            --build-name=$BUILD_NAME \
-            --build-number=$BUILD_NUMBER
+          --build-name=$BUILD_NAME \
+          --build-number=$BUILD_NUMBER \
+          --dart-define=flutterVersionCode=$BUILD_NUMBER \
+          --dart-define=flutterVersionName=$BUILD_NAME
 
       - name: Build Android AppBundle
         script: |
-          flutter build appbundle --release \
-            --build-name=$BUILD_NAME \
-            --build-number=$BUILD_NUMBER
+           flutter build app bundle --release \
+          --build-name=$BUILD_NAME \
+          --build-number=$BUILD_NUMBER \
+          --dart-define=flutterVersionCode=$BUILD_NUMBER \
+          --dart-define=flutterVersionName=$BUILD_NAME
 
       - name: Build iOS
         script: |
