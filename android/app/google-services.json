@@ -1,0 +1,235 @@
+{
+  "project_info": {
+    "project_number": "420755692867",
+    "project_id": "neyyar-elearning-app",
+    "storage_bucket": "neyyar-elearning-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:420755692867:android:1562f33d7802a961e1e3f6",
+        "android_client_info": {
+          "package_name": "com.neyyar.learning"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "420755692867-1asi3affsruo6l9aljecit7btc0pghc5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.neyyar.learning",
+            "certificate_hash": "4a7de3736f8b8935a9e5dda0052a5d98557be49b"
+          }
+        },
+        {
+          "client_id": "420755692867-dclo0fld74su4eseoisf193iegrqmlpl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbcGYe0-APhVsCEozNiIo9sYW77CsgvOo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "420755692867-dclo0fld74su4eseoisf193iegrqmlpl.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "420755692867-05ht3jfe56vasnicbqb0dir7hkgo9qep.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.Neyyar.Neyyar-Elearning-App",
+                "app_store_id": "1557423684"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:420755692867:android:f5cade531c0901f5e1e3f6",
+        "android_client_info": {
+          "package_name": "com.neyyar.learning.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "420755692867-eg7md2gjegjc6c5iu3kn28hh39nh80lv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.neyyar.learning.dev",
+            "certificate_hash": "805e4bbd5bd61a111725792b7082726773b4e18e"
+          }
+        },
+        {
+          "client_id": "420755692867-dclo0fld74su4eseoisf193iegrqmlpl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbcGYe0-APhVsCEozNiIo9sYW77CsgvOo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "420755692867-dclo0fld74su4eseoisf193iegrqmlpl.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "420755692867-05ht3jfe56vasnicbqb0dir7hkgo9qep.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.Neyyar.Neyyar-Elearning-App",
+                "app_store_id": "1557423684"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:420755692867:android:b3bc7ed852abb955e1e3f6",
+        "android_client_info": {
+          "package_name": "com.neyyar.learning.prod"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "420755692867-77a1idd1r8vp4mthnvdvqn2cegtq99mm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.neyyar.learning.prod",
+            "certificate_hash": "b2d85945a74e80fecf6734924c51b29f8276b1ba"
+          }
+        },
+        {
+          "client_id": "420755692867-dclo0fld74su4eseoisf193iegrqmlpl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbcGYe0-APhVsCEozNiIo9sYW77CsgvOo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "420755692867-dclo0fld74su4eseoisf193iegrqmlpl.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "420755692867-05ht3jfe56vasnicbqb0dir7hkgo9qep.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.Neyyar.Neyyar-Elearning-App",
+                "app_store_id": "1557423684"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:420755692867:android:026544a65db60acde1e3f6",
+        "android_client_info": {
+          "package_name": "com.neyyar.learning.qa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "420755692867-p2mdkkehghu9oukjej0bpb54282h1ui9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.neyyar.learning.qa",
+            "certificate_hash": "b2d85945a74e80fecf6734924c51b29f8276b1ba"
+          }
+        },
+        {
+          "client_id": "420755692867-dclo0fld74su4eseoisf193iegrqmlpl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbcGYe0-APhVsCEozNiIo9sYW77CsgvOo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "420755692867-dclo0fld74su4eseoisf193iegrqmlpl.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "420755692867-05ht3jfe56vasnicbqb0dir7hkgo9qep.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.Neyyar.Neyyar-Elearning-App",
+                "app_store_id": "1557423684"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:420755692867:android:55c6980f98c72c2ee1e3f6",
+        "android_client_info": {
+          "package_name": "com.neyyar.learning.uat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "420755692867-ae50rqc0ipjqrfrsm1l3i832rjlj5ba1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.neyyar.learning.uat",
+            "certificate_hash": "b2d85945a74e80fecf6734924c51b29f8276b1ba"
+          }
+        },
+        {
+          "client_id": "420755692867-dclo0fld74su4eseoisf193iegrqmlpl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbcGYe0-APhVsCEozNiIo9sYW77CsgvOo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "420755692867-dclo0fld74su4eseoisf193iegrqmlpl.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "420755692867-05ht3jfe56vasnicbqb0dir7hkgo9qep.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.Neyyar.Neyyar-Elearning-App",
+                "app_store_id": "1557423684"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
