@@ -50,11 +50,9 @@ workflows:
 
       - name: Build Android AppBundle
         script: |
-         flutter build app bundle --release \
-          --build-name=$BUILD_NAME \
-          --build-number=$BUILD_NUMBER \
-          --dart-define=flutterVersionCode=$BUILD_NUMBER \
-          --dart-define=flutterVersionName=$BUILD_NAME
+          flutter build appbundle --release \
+           --build-name=$BUILD_NAME \
+           --build-number=$BUILD_NUMBER
 
       - name: Build iOS
         script: |
