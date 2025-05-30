@@ -68,7 +68,7 @@ workflows:
     publishing:
       email:
         recipients:
-          - sujithks.wayvida@gmail.com
+          - sujith.ks@wayvida.com
         notify:
           success: true
           failure: true
