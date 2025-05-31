@@ -26,6 +26,8 @@ workflows:
           include: true
 
     scripts:
+      -  echo "Flutter version: $(flutter --version)"
+      - flutter doctor
       - name: Set up environment
         script: |
           echo "Setting up Flutter environment..."
