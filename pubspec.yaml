@@ -100,6 +100,14 @@ dependencies:
   flutter_hls_parser: ^2.0.1
   sqflite: ^2.3.2
 
+  webview_flutter: ^4.5.0
+  #  zoom_allinonesdk: ^0.0.5
+  permission_handler: ^12.0.0+1
+  flutter_linkify: ^6.0.0
+  #  uni_links: ^0.5.1
+  flutter_dotenv: ^5.1.0
+  widget_and_text_animator: ^1.1.5
+
   # The following adds the Cupertino Iccions font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
 
