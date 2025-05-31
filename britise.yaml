@@ -1,0 +1,71 @@
+format_version: '11'
+default_step_lib_source: https://github.com/bitrise-io/bitrise-steplib.git
+
+workflows:
+  build_neyyarappflutter:
+    description: |
+      Build and test Neyyar Flutter app
+    envs:
+      - BUILD_NAME: "3.3.0"
+      - BUILD_NUMBER: "132"
+      - FLUTTER_VERSION: "3.22.1"
+    steps:
+      - activate-ssh-key@4: {}
+
+      - git-clone@8: {}
+
+      - flutter-installer@0:
+          inputs:
+            - version: "$FLUTTER_VERSION"
+
+      - script@1:
+          title: Set Flutter Version (optional)
+          inputs:
+            - content: flutter --version
+
+      - cache-pull@2: {}
+
+      - script@1:
+          title: Install dependencies
+          inputs:
+            - content: flutter pub get
+
+      - script@1:
+          title: Analyze code
+          inputs:
+            - content: flutter analyze
+
+      - script@1:
+          title: Run tests
+          inputs:
+            - content: flutter test
+
+      - script@1:
+          title: Build APK
+          inputs:
+            - content: |
+                flutter build apk --release \
+                --build-name=$BUILD_NAME \
+                --build-number=$BUILD_NUMBER \
+                --dart-define=flutterVersionCode=$BUILD_NUMBER \
+                --dart-define=flutterVersionName=$BUILD_NAME
+
+      - script@1:
+          title: Build App Bundle
+          inputs:
+            - content: |
+                flutter build appbundle --release \
+                --build-name=$BUILD_NAME \
+                --build-number=$BUILD_NUMBER
+
+      - cache-push@2:
+          inputs:
+            - paths: |
+                $HOME/.pub-cache
+                .dart_tool
+                build
+
+      - deploy-to-bitrise-io@2:
+          inputs:
+            - notify_user_groups: everyone
+            - notify_email_list: sujith.ks@wayvida.com
