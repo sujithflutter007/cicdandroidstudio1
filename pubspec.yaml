@@ -109,6 +109,11 @@ dependencies:
   flutter_dotenv: ^5.1.0
   widget_and_text_animator: ^1.1.5
 
+  #  to generate or retrieve an identifier that is unique to the app installation on the device.
+  uuid: ^4.2.2
+  #  This package provides a simple way to get information about the device, including the brand and model.
+  device_info_plus: ^11.3.0
+
   # The following adds the Cupertino Iccions font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
 
