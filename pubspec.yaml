@@ -114,6 +114,10 @@ dependencies:
   #  This package provides a simple way to get information about the device, including the brand and model.
   device_info_plus: ^11.3.0
 
+
+  table_calendar: ^3.0.9
+  bloc_concurrency: ^0.3.0
+  timeago: ^3.6.0
   # The following adds the Cupertino Iccions font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
 
